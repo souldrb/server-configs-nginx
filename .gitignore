@@ -4,3 +4,5 @@ conf.d/*.conf
 !conf.d/no-ssl.default.conf
 test/*
 !test/vhosts/
+.github/*
+.DS_store
