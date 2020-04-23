@@ -1,3 +1,49 @@
+### 3.2.0 (April 14, 2020)
+
+* Stricter default for Referrer Policy `strict-origin-when-cross-origin`
+  [[e0724b8](https://github.com/h5bp/server-configs-nginx/commit/e0724b814952f6aee3c09dd578480c9c143955ae)]
+* Revert: drop `Cache-Control: no-transform` usage
+  [[bc39e4c](https://github.com/h5bp/server-configs-nginx/commit/bc39e4c07d23edfc0acd3c11de88e95af5880eee)]
+* Rewrite, improve and update a large part of the documentation
+  [[0af3052](https://github.com/h5bp/server-configs-nginx/commit/0af305283f99abfc85e4395201ffadc7de975d4b)]
+  [[177a5e9](https://github.com/h5bp/server-configs-nginx/commit/177a5e94a60d9c27a8831a1d63211ffe6f6a83a3)]
+  [[5ca3aed](https://github.com/h5bp/server-configs-nginx/commit/5ca3aed56c83a0f80c88cc85b66abf9b118557ee)]
+  [[bb2a30c](https://github.com/h5bp/server-configs-nginx/commit/bb2a30caccd240bab3baa511c25152117961bd09)]
+  [[5ca3aed](https://github.com/h5bp/server-configs-nginx/commit/5ca3aed56c83a0f80c88cc85b66abf9b118557ee)]
+* Ensure the presence of security headings where expected
+  [[4168940](https://github.com/h5bp/server-configs-nginx/commit/41689406c87990eb8c6200a62b1baa7c1705dd31)]
+  [[3615dfa](https://github.com/h5bp/server-configs-nginx/commit/3615dfa351c54e724f17737643e6ecbe7836d06c)]
+  [[98de990](https://github.com/h5bp/server-configs-nginx/commit/98de990c1c572354fc2d3f8c7f30940e3af9cdf0)]
+* Remove non-ASCII character from config files
+  [[d2f5972](https://github.com/h5bp/server-configs-nginx/commit/d2f597235a1d384cf1d69cb51a74c22755c0c11c)]
+* Improve inline comments.
+
+### 3.1.0 (May 19, 2019)
+
+* Drop `Cache-Control: no-transform` usage
+  [[282d979](https://github.com/h5bp/server-configs-nginx/commit/282d979af40f34dccb852df9dcbecd42b899ef18)]
+* Disable cache expiration for empty content-type resources
+  [[c73d1ef](https://github.com/h5bp/server-configs-nginx/commit/c73d1efb60e834c57c6343745415c4b58418c934)]
+* Remove Content-Security-Policy from `basic.conf` includes
+  [[29ff09a](https://github.com/h5bp/server-configs-nginx/commit/29ff09ac950d40dd525e1b438ab2ecaf0a4be96f)]
+* Improve default Content-Security-Policy values
+  [[276af8d](https://github.com/h5bp/server-configs-nginx/commit/276af8da7bdf7c7d3708bbe5190092194b307789)]
+* Add more common DNS resolver addresses to default `resolver`
+  [[28874c3](https://github.com/h5bp/server-configs-nginx/commit/28874c33f0e778fc7687f5b3926590ce09e06c98)]
+* Pre-compressed content usage config files
+  [[8db768b](https://github.com/h5bp/server-configs-nginx/commit/8db768bd61094ad814bb56b8a2a560ccc416aef0)]
+* Improve inline comments.
+
+### 3.0.1 (March 09, 2019)
+
+* Use regexp in MIME-types based maps
+  [[d65cd97](https://github.com/h5bp/server-configs-nginx/commit/d65cd977618ede702f15e084cb0f4a152e204935)]
+  [[db1601f](https://github.com/h5bp/server-configs-nginx/commit/db1601f6064fd7d3d822618cf2e069a6b0cb8e9f)]
+* Fix SVGZ compression handling
+  [[cec616a](https://github.com/h5bp/server-configs-nginx/commit/cec616a103345ccef418a16549adee60f650cf52)]
+* Add Referrer-Policy for html document by default
+  [[f600128](https://github.com/h5bp/server-configs-nginx/commit/f600128203e6319d6f3ce02e2538bf65b0ed01ea)]
+
 ### 3.0.0 (February 12, 2019)
 
 * ⚠️ **Breaking**: Drop support for Nginx version < 1.8.0
@@ -28,7 +74,6 @@
 * Remove outdated `inline` script
   [[8a4a1ce](https://github.com/h5bp/server-configs-nginx/commit/8a4a1ce706eb90d820f6a2ccaa23f5f55e6c056e)]
 * Improve inline comments and review documentation.
-
 
 ### 2.0.0 (2017-05-06)
 
